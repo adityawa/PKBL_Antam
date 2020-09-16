@@ -1,0 +1,9 @@
+D:\Adit\Project\Private\PKBLAntam_Sln\PKBL.Domain\bin\Debug\netstandard2.0\PKBL.Domain.deps.json
+D:\Adit\Project\Private\PKBLAntam_Sln\PKBL.Domain\bin\Debug\netstandard2.0\PKBL.Domain.dll
+D:\Adit\Project\Private\PKBLAntam_Sln\PKBL.Domain\bin\Debug\netstandard2.0\PKBL.Domain.pdb
+D:\Adit\Project\Private\PKBLAntam_Sln\PKBL.Domain\obj\Debug\netstandard2.0\PKBL.Domain.csprojAssemblyReference.cache
+D:\Adit\Project\Private\PKBLAntam_Sln\PKBL.Domain\obj\Debug\netstandard2.0\PKBL.Domain.AssemblyInfoInputs.cache
+D:\Adit\Project\Private\PKBLAntam_Sln\PKBL.Domain\obj\Debug\netstandard2.0\PKBL.Domain.AssemblyInfo.cs
+D:\Adit\Project\Private\PKBLAntam_Sln\PKBL.Domain\obj\Debug\netstandard2.0\PKBL.Domain.csproj.CoreCompileInputs.cache
+D:\Adit\Project\Private\PKBLAntam_Sln\PKBL.Domain\obj\Debug\netstandard2.0\PKBL.Domain.dll
+D:\Adit\Project\Private\PKBLAntam_Sln\PKBL.Domain\obj\Debug\netstandard2.0\PKBL.Domain.pdb

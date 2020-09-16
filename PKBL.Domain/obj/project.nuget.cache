@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "08gdUm4JLUGgGN14rlpz4442KbTNoGdh+SzO0bA85zxZ52d4SLu3BBgJ47mcwXx00pl5urytyWkyps9gAzJWXA==",
+  "success": true,
+  "projectFilePath": "D:\\Adit\\Project\\Private\\PKBLAntam_Sln\\PKBL.Domain\\PKBL.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\IdeaPad\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\IdeaPad\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
