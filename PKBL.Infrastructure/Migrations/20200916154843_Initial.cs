@@ -56,10 +56,10 @@ namespace PKBL.Infrastructure.Migrations
                     AddressDistrict = table.Column<string>(nullable: true),
                     Home_Ownership_Id = table.Column<int>(nullable: false)
                 },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_M_Mitras", x => x.Id);
-                });
+        constraints: table =>
+        {
+            table.PrimaryKey("PK_M_Mitras", x => x.Id);
+        });
 
             migrationBuilder.CreateTable(
                 name: "AspNetRoleClaims",
