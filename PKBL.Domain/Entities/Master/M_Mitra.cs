@@ -11,11 +11,15 @@ namespace PKBL.Domain.Entities.Master
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long Id { get; set; }
+        
         public string RequestorAddress { get; set; }
         public string AddressDistrict { get; set; }
         public int HomeOwnershipId { get; set; }
+        [StringLength(64)]
         public string RequestorPhone1 { get; set; }
+        [StringLength(64)]
         public string RequestorPhone2 { get; set; }
+        [StringLength(64)]
         public string RequestorMail { get; set; }
 
         public int MaritalStatusId { get; set; }

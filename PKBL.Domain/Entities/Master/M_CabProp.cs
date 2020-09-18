@@ -11,6 +11,8 @@ namespace PKBL.Domain.Entities.Master
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long Id { get; set; }
+
+        [StringLength(30)]
         public string Cabang { get; set; }
         [ForeignKey("M_Province")]
         public int Propinsi { get; set; }
