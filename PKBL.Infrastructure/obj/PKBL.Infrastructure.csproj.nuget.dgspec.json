@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Adit\\Project\\Private\\PKBLAntam_Sln\\PKBL.Infrastructure\\PKBL.Infrastructure.csproj": {}
+    "E:\\Projects\\Antam\\PKBL\\03 - Development\\PKBL_Antam\\PKBL.Infrastructure\\PKBL.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Adit\\Project\\Private\\PKBLAntam_Sln\\PKBL.Application\\PKBL.Application.csproj": {
+    "E:\\Projects\\Antam\\PKBL\\03 - Development\\PKBL_Antam\\PKBL.Application\\PKBL.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Adit\\Project\\Private\\PKBLAntam_Sln\\PKBL.Application\\PKBL.Application.csproj",
+        "projectUniqueName": "E:\\Projects\\Antam\\PKBL\\03 - Development\\PKBL_Antam\\PKBL.Application\\PKBL.Application.csproj",
         "projectName": "PKBL.Application",
-        "projectPath": "D:\\Adit\\Project\\Private\\PKBLAntam_Sln\\PKBL.Application\\PKBL.Application.csproj",
-        "packagesPath": "C:\\Users\\IdeaPad\\.nuget\\packages\\",
-        "outputPath": "D:\\Adit\\Project\\Private\\PKBLAntam_Sln\\PKBL.Application\\obj\\",
+        "projectPath": "E:\\Projects\\Antam\\PKBL\\03 - Development\\PKBL_Antam\\PKBL.Application\\PKBL.Application.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\Antam\\PKBL\\03 - Development\\PKBL_Antam\\PKBL.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\IdeaPad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -31,8 +27,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Adit\\Project\\Private\\PKBLAntam_Sln\\PKBL.Domain\\PKBL.Domain.csproj": {
-                "projectPath": "D:\\Adit\\Project\\Private\\PKBLAntam_Sln\\PKBL.Domain\\PKBL.Domain.csproj"
+              "E:\\Projects\\Antam\\PKBL\\03 - Development\\PKBL_Antam\\PKBL.Domain\\PKBL.Domain.csproj": {
+                "projectPath": "E:\\Projects\\Antam\\PKBL\\03 - Development\\PKBL_Antam\\PKBL.Domain\\PKBL.Domain.csproj"
               }
             }
           }
@@ -67,26 +63,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Adit\\Project\\Private\\PKBLAntam_Sln\\PKBL.Domain\\PKBL.Domain.csproj": {
+    "E:\\Projects\\Antam\\PKBL\\03 - Development\\PKBL_Antam\\PKBL.Domain\\PKBL.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Adit\\Project\\Private\\PKBLAntam_Sln\\PKBL.Domain\\PKBL.Domain.csproj",
+        "projectUniqueName": "E:\\Projects\\Antam\\PKBL\\03 - Development\\PKBL_Antam\\PKBL.Domain\\PKBL.Domain.csproj",
         "projectName": "PKBL.Domain",
-        "projectPath": "D:\\Adit\\Project\\Private\\PKBLAntam_Sln\\PKBL.Domain\\PKBL.Domain.csproj",
-        "packagesPath": "C:\\Users\\IdeaPad\\.nuget\\packages\\",
-        "outputPath": "D:\\Adit\\Project\\Private\\PKBLAntam_Sln\\PKBL.Domain\\obj\\",
+        "projectPath": "E:\\Projects\\Antam\\PKBL\\03 - Development\\PKBL_Antam\\PKBL.Domain\\PKBL.Domain.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\Antam\\PKBL\\03 - Development\\PKBL_Antam\\PKBL.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\IdeaPad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -109,6 +101,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.DataAnnotations": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -126,26 +122,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Adit\\Project\\Private\\PKBLAntam_Sln\\PKBL.Infrastructure\\PKBL.Infrastructure.csproj": {
+    "E:\\Projects\\Antam\\PKBL\\03 - Development\\PKBL_Antam\\PKBL.Infrastructure\\PKBL.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Adit\\Project\\Private\\PKBLAntam_Sln\\PKBL.Infrastructure\\PKBL.Infrastructure.csproj",
+        "projectUniqueName": "E:\\Projects\\Antam\\PKBL\\03 - Development\\PKBL_Antam\\PKBL.Infrastructure\\PKBL.Infrastructure.csproj",
         "projectName": "PKBL.Infrastructure",
-        "projectPath": "D:\\Adit\\Project\\Private\\PKBLAntam_Sln\\PKBL.Infrastructure\\PKBL.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\IdeaPad\\.nuget\\packages\\",
-        "outputPath": "D:\\Adit\\Project\\Private\\PKBLAntam_Sln\\PKBL.Infrastructure\\obj\\",
+        "projectPath": "E:\\Projects\\Antam\\PKBL\\03 - Development\\PKBL_Antam\\PKBL.Infrastructure\\PKBL.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\Antam\\PKBL\\03 - Development\\PKBL_Antam\\PKBL.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\IdeaPad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -157,8 +149,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Adit\\Project\\Private\\PKBLAntam_Sln\\PKBL.Application\\PKBL.Application.csproj": {
-                "projectPath": "D:\\Adit\\Project\\Private\\PKBLAntam_Sln\\PKBL.Application\\PKBL.Application.csproj"
+              "E:\\Projects\\Antam\\PKBL\\03 - Development\\PKBL_Antam\\PKBL.Application\\PKBL.Application.csproj": {
+                "projectPath": "E:\\Projects\\Antam\\PKBL\\03 - Development\\PKBL_Antam\\PKBL.Application\\PKBL.Application.csproj"
               }
             }
           }
@@ -220,11 +212,14 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

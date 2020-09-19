@@ -1,0 +1,215 @@
+﻿@model PKBL.Domain.Entities.Master.M_Mitra
+@{
+    ViewData["Title"] = "Edit Master Mitra";
+}
+<h4>@ViewData["Title"]</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="CreatedBy" />
+            <input type="hidden" asp-for="CreatedDate" />
+            <div class="form-group">
+                <label asp-for="RequestorAddress" class="control-label"></label>
+                <input asp-for="RequestorAddress" class="form-control" />
+                <span asp-validation-for="RequestorAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AddressDistrict" class="control-label"></label>
+                <input asp-for="AddressDistrict" class="form-control" />
+                <span asp-validation-for="AddressDistrict" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HomeOwnershipId" class="control-label"></label>
+                <input asp-for="HomeOwnershipId" class="form-control" />
+                <span asp-validation-for="HomeOwnershipId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RequestorPhone1" class="control-label"></label>
+                <input asp-for="RequestorPhone1" class="form-control" />
+                <span asp-validation-for="RequestorPhone1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RequestorPhone2" class="control-label"></label>
+                <input asp-for="RequestorPhone2" class="form-control" />
+                <span asp-validation-for="RequestorPhone2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RequestorMail" class="control-label"></label>
+                <input asp-for="RequestorMail" class="form-control" />
+                <span asp-validation-for="RequestorMail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaritalStatusId" class="control-label"></label>
+                <input asp-for="MaritalStatusId" class="form-control" />
+                <span asp-validation-for="MaritalStatusId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EducationLevelId" class="control-label"></label>
+                <input asp-for="EducationLevelId" class="form-control" />
+                <span asp-validation-for="EducationLevelId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CompanyDataId" class="control-label"></label>
+                <input asp-for="CompanyDataId" class="form-control" />
+                <span asp-validation-for="CompanyDataId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Family_Relative_ID" class="control-label"></label>
+                <input asp-for="Family_Relative_ID" class="form-control" />
+                <span asp-validation-for="Family_Relative_ID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Other_Relative_ID" class="control-label"></label>
+                <input asp-for="Other_Relative_ID" class="form-control" />
+                <span asp-validation-for="Other_Relative_ID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Car_Mortage_ID" class="control-label"></label>
+                <input asp-for="Car_Mortage_ID" class="form-control" />
+                <span asp-validation-for="Car_Mortage_ID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Motorcycle_Mortage_ID" class="control-label"></label>
+                <input asp-for="Motorcycle_Mortage_ID" class="form-control" />
+                <span asp-validation-for="Motorcycle_Mortage_ID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Other_Mortage_ID" class="control-label"></label>
+                <input asp-for="Other_Mortage_ID" class="form-control" />
+                <span asp-validation-for="Other_Mortage_ID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MortageRemarks" class="control-label"></label>
+                <input asp-for="MortageRemarks" class="form-control" />
+                <span asp-validation-for="MortageRemarks" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Administrative_Id" class="control-label"></label>
+                <input asp-for="Administrative_Id" class="form-control" />
+                <span asp-validation-for="Administrative_Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Production_Activity_Id1" class="control-label"></label>
+                <input asp-for="Production_Activity_Id1" class="form-control" />
+                <span asp-validation-for="Production_Activity_Id1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Production_Activity_Id2" class="control-label"></label>
+                <input asp-for="Production_Activity_Id2" class="form-control" />
+                <span asp-validation-for="Production_Activity_Id2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Production_Activity_Id3" class="control-label"></label>
+                <input asp-for="Production_Activity_Id3" class="form-control" />
+                <span asp-validation-for="Production_Activity_Id3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Production_Activity_Id4" class="control-label"></label>
+                <input asp-for="Production_Activity_Id4" class="form-control" />
+                <span asp-validation-for="Production_Activity_Id4" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsProductHandMade" /> @Html.DisplayNameFor(model => model.IsProductHandMade)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsMachineMade" /> @Html.DisplayNameFor(model => model.IsMachineMade)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="Owned_Tool1" class="control-label"></label>
+                <input asp-for="Owned_Tool1" class="form-control" />
+                <span asp-validation-for="Owned_Tool1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Owned_Tool1_count" class="control-label"></label>
+                <input asp-for="Owned_Tool1_count" class="form-control" />
+                <span asp-validation-for="Owned_Tool1_count" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Owned_Tool2" class="control-label"></label>
+                <input asp-for="Owned_Tool2" class="form-control" />
+                <span asp-validation-for="Owned_Tool2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Owned_Tool2_count" class="control-label"></label>
+                <input asp-for="Owned_Tool2_count" class="form-control" />
+                <span asp-validation-for="Owned_Tool2_count" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Owned_Tool3" class="control-label"></label>
+                <input asp-for="Owned_Tool3" class="form-control" />
+                <span asp-validation-for="Owned_Tool3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Owned_Tool3_count" class="control-label"></label>
+                <input asp-for="Owned_Tool3_count" class="form-control" />
+                <span asp-validation-for="Owned_Tool3_count" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Owned_Tool4" class="control-label"></label>
+                <input asp-for="Owned_Tool4" class="form-control" />
+                <span asp-validation-for="Owned_Tool4" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Owned_Tool4_count" class="control-label"></label>
+                <input asp-for="Owned_Tool4_count" class="form-control" />
+                <span asp-validation-for="Owned_Tool4_count" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Service_Provided" class="control-label"></label>
+                <input asp-for="Service_Provided" class="form-control" />
+                <span asp-validation-for="Service_Provided" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Marketing" class="control-label"></label>
+                <input asp-for="Marketing" class="form-control" />
+                <span asp-validation-for="Marketing" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsLocalMarket" /> @Html.DisplayNameFor(model => model.IsLocalMarket)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsExport" /> @Html.DisplayNameFor(model => model.IsExport)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="Checklist_Id" class="control-label"></label>
+                <input asp-for="Checklist_Id" class="form-control" />
+                <span asp-validation-for="Checklist_Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UploadedFile" class="control-label"></label>
+                <input asp-for="UploadedFile" class="form-control" />
+                <span asp-validation-for="UploadedFile" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="InventoryUpdateId" class="control-label"></label>
+                <input asp-for="InventoryUpdateId" class="form-control" />
+                <span asp-validation-for="InventoryUpdateId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MGRNoProposal" class="control-label"></label>
+                <input asp-for="MGRNoProposal" class="form-control" />
+                <span asp-validation-for="MGRNoProposal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TglBermasalah" class="control-label"></label>
+                <input asp-for="TglBermasalah" class="form-control" />
+                <span asp-validation-for="TglBermasalah" class="text-danger"></span>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

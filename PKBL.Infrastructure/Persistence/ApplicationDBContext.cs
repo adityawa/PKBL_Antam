@@ -5,13 +5,17 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using PKBL.Application.Common.Interfaces;
+using PKBL.Domain.Entities;
 using PKBL.Domain.Entities.Master;
 using PKBL.Domain.Entities.PK;
 using PKBL.Infrastructure.Identity;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace PKBL.Infrastructure.Persistence
 {
@@ -40,6 +44,38 @@ namespace PKBL.Infrastructure.Persistence
 
             base.OnModelCreating(builder);
         }
-        
+        public override Task<int> SaveChangesAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = default)
+        {
+            UpdateTimestamp();
+
+            return base.SaveChangesAsync(acceptAllChangesOnSuccess, cancellationToken);
+        }
+        public override int SaveChanges()
+        {
+
+            UpdateTimestamp();
+
+            return base.SaveChanges();
+        }
+
+        private void UpdateTimestamp()
+        {
+            var entries = ChangeTracker
+                            .Entries()
+                            .Where(e => e.Entity is BaseEntity && (
+                            e.State == EntityState.Added
+                            || e.State == EntityState.Modified));
+
+            foreach (var entityEntry in entries)
+            {
+                ((BaseEntity)entityEntry.Entity).ModifiedDate = DateTime.Now;
+
+                if (entityEntry.State == EntityState.Added)
+                {
+                    ((BaseEntity)entityEntry.Entity).IsDeleted = false;
+                    ((BaseEntity)entityEntry.Entity).CreatedDate = DateTime.Now;
+                }
+            }
+        }
     }
 }

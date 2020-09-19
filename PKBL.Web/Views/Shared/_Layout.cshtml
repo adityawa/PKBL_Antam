@@ -48,25 +48,25 @@
                             
                             <ul class="nav side-menu">
                                 <li>
-                                    <a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
-                                    <ul class="nav child_menu">
-                                        <li><a href="index.html">Dashboard</a></li>
-                                        <li><a href="index2.html">Dashboard2</a></li>
-                                        <li><a href="index3.html">Dashboard3</a></li>
-                                    </ul>
+                                    <a asp-controller="Home"><i class="fa fa-home"></i> Home</a>
                                 </li>
                                 <li>
-                                    <a><i class="fa fa-edit"></i> Forms <span class="fa fa-chevron-down"></span></a>
+                                    <a><i class="fa fa-edit"></i> Master Data <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu">
-                                        <li><a href="form.html">General Form</a></li>
-                                        <li><a href="form_advanced.html">Advanced Components</a></li>
-                                        <li><a href="form_validation.html">Form Validation</a></li>
-                                        <li><a href="form_wizards.html">Form Wizard</a></li>
-                                        <li><a href="form_upload.html">Form Upload</a></li>
-                                        <li><a href="form_buttons.html">Form Buttons</a></li>
+                                        <li><a asp-controller="MasterCompany" asp-action="Index">Perusahaan</a></li>
+                                        <li><a asp-controller="MasterDropdown" asp-action="Index">Drop Down</a></li>
+                                        <li><a asp-controller="MasterJenisKreditKemitraan" asp-action="Index">Jenis Kredit Kemitraan</a></li>
+                                        <li><a asp-controller="MasterKantorCabang" asp-action="Index">Kantor Cabang</a></li>
+                                        <li><a asp-controller="MasterCabProp" asp-action="Index">Cab Prop</a></li>
+                                        <li><a asp-controller="MasterKotaKabupaten" asp-action="Index">Kota Kabupaten</a></li>
+                                        <li><a asp-controller="MasterMitra" asp-action="Index">Mitra</a></li>
+                                        <li><a asp-controller="MasterProvince" asp-action="Index">Provinsi</a></li>
+                                        <li><a asp-controller="MasterRefDataUsahaMitra" asp-action="Index">Ref Data Usaha Mitra</a></li>
+                                        <li><a asp-controller="MasterSektorKemitraan" asp-action="Index">Sektor Kemitraan</a></li>
+                                        <li><a asp-controller="MasterSupplier" asp-action="Index">Supplier</a></li>
                                     </ul>
                                 </li>
-                                <li>
+                                @*<li>
                                     <a><i class="fa fa-desktop"></i> UI Elements <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu">
                                         <li><a href="general_elements.html">General Elements</a></li>
@@ -103,10 +103,10 @@
                                         <li><a href="fixed_sidebar.html">Fixed Sidebar</a></li>
                                         <li><a href="fixed_footer.html">Fixed Footer</a></li>
                                     </ul>
-                                </li>
+                                </li>*@
                             </ul>
                         </div>
-                        <div class="menu_section">
+                        @*<div class="menu_section">
                            
                             <ul class="nav side-menu">
                                 <li>
@@ -157,7 +157,7 @@
                                 </li>
                                 
                             </ul>
-                        </div>
+                        </div>*@
 
                     </div>
                   

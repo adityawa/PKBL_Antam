@@ -6,9 +6,8 @@ using System.Text;
 
 namespace PKBL.Domain.Entities.Master
 {
-    public class M_KotaKabupaten 
+    public class M_KotaKabupaten : BaseEntity
     {
-      
         public string City_Id2 { get; set; }
         [StringLength(5)]
         [Key]

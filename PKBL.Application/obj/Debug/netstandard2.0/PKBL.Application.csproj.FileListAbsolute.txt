@@ -10,3 +10,15 @@ D:\Adit\Project\Private\PKBLAntam_Sln\PKBL.Application\bin\Debug\netstandard2.0\
 D:\Adit\Project\Private\PKBLAntam_Sln\PKBL.Application\bin\Debug\netstandard2.0\PKBL.Domain.pdb
 D:\Adit\Project\Private\PKBLAntam_Sln\PKBL.Application\obj\Debug\netstandard2.0\PKBL.Application.csproj.CopyComplete
 D:\Adit\Project\Private\PKBLAntam_Sln\PKBL.Application\obj\Debug\netstandard2.0\PKBL.Application.csproj.CoreCompileInputs.cache
+E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Application\bin\Debug\netstandard2.0\PKBL.Application.deps.json
+E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Application\bin\Debug\netstandard2.0\PKBL.Application.dll
+E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Application\bin\Debug\netstandard2.0\PKBL.Application.pdb
+E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Application\bin\Debug\netstandard2.0\PKBL.Domain.dll
+E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Application\bin\Debug\netstandard2.0\PKBL.Domain.pdb
+E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Application\obj\Debug\netstandard2.0\PKBL.Application.csprojAssemblyReference.cache
+E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Application\obj\Debug\netstandard2.0\PKBL.Application.AssemblyInfoInputs.cache
+E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Application\obj\Debug\netstandard2.0\PKBL.Application.AssemblyInfo.cs
+E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Application\obj\Debug\netstandard2.0\PKBL.Application.csproj.CoreCompileInputs.cache
+E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Application\obj\Debug\netstandard2.0\PKBL.Application.csproj.CopyComplete
+E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Application\obj\Debug\netstandard2.0\PKBL.Application.dll
+E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Application\obj\Debug\netstandard2.0\PKBL.Application.pdb

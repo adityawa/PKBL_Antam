@@ -1,0 +1,189 @@
+﻿@model PKBL.Domain.Entities.Master.M_RefDataUsahaMitra
+@{
+    ViewData["Title"] = "Detail Ref Data Usaha Mitra";
+}
+
+<div>
+    <h4>@ViewData["Title"]</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CompSectorDetail)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CompSectorDetail)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CompName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CompName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CompCEO)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CompCEO)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CityId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CityId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PostalCode)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PostalCode)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Phone1)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Phone1)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Phone2)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Phone2)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Fax)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Fax)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.OwnWorkPlace)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.OwnWorkPlace)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.WorkPlace_Enddate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.WorkPlace_Enddate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ActiveSince)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ActiveSince)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Workforce)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Workforce)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.WorkingCapital)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.WorkingCapital)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Investment)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Investment)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.MonthlyRevenue)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.MonthlyRevenue)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CompanyUnit)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CompanyUnit)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.HasJournalAdmin)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.HasJournalAdmin)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.JournalAdministration)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.JournalAdministration)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.HasOtherLoan)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.HasOtherLoan)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.OtherLoanAt)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.OtherLoanAt)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.OtherLoanAmt)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.OtherLoanAmt)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.MitraId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.MitraId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.MGRProposalNo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.MGRProposalNo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CreatedBy)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CreatedBy)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedBy)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ModifiedBy)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CreatedDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CreatedDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ModifiedDate)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

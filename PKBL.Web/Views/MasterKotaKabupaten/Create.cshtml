@@ -1,0 +1,52 @@
+﻿@model PKBL.Domain.Entities.Master.M_KotaKabupaten
+
+@{
+    ViewData["Title"] = "Create Kota Kabupaten";
+}
+
+<h4>@ViewData["Title"]</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="City_Id2" class="control-label"></label>
+                <input asp-for="City_Id2" class="form-control" />
+                <span asp-validation-for="City_Id2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="City_Id" class="control-label"></label>
+                <input asp-for="City_Id" class="form-control" />
+                <span asp-validation-for="City_Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="City_AppCode" class="control-label"></label>
+                <input asp-for="City_AppCode" class="form-control" />
+                <span asp-validation-for="City_AppCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="City_Name" class="control-label"></label>
+                <input asp-for="City_Name" class="form-control" />
+                <span asp-validation-for="City_Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Province_Code" class="control-label"></label>
+                <input asp-for="Province_Code" class="form-control" />
+                <span asp-validation-for="Province_Code" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Prefix" class="control-label"></label>
+                <input asp-for="Prefix" class="form-control" />
+                <span asp-validation-for="Prefix" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
