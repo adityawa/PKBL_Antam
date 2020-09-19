@@ -2,68 +2,105 @@
 @{
     ViewData["Title"] = "Master Supplier";
 }
-<h4>@ViewData["Title"]</h4>
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.SupplierName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Alamat)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Phone)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Fax)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TglDaftar)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CreatedDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ModifiedDate)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.SupplierName)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Alamat)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Phone)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Fax)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.TglDaftar)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.CreatedDate)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.ModifiedDate)
-                </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+@section Styles{
+    <link href="~/vendor/datatables/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
+}
+<div class="row">
+    <div class="col-md-12 col-sm-12  ">
+        <div class="x_panel">
+            <div class="x_title border-bottom-0 no-padding">
+                <h2>@ViewData["Title"]</h2>
+                <div class="nav navbar-right panel_toolbox">
+                    <a class="btn btn-sm btn-success" asp-action="Create">Create New</a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="x_content">
+                <table class="table table-hover" id="gvData">
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.SupplierName)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Alamat)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Phone)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Fax)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.TglDaftar)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.CreatedDate)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.ModifiedDate)
+                            </th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.SupplierName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Alamat)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Phone)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Fax)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.TglDaftar)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CreatedDate)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.ModifiedDate)
+                                </td>
+                                <td>
+                                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts{
+    <script src="~/vendor/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="~/vendor/datatables/js/dataTables.bootstrap4.min.js"></script>
+    <script>
+        var table;
+        $(function () {
+            $.fn.dataTable.ext.errMode = 'none';
+            table = $('#gvData').DataTable({
+                    "dom": '<"top">rt<"bottom"<"row"<"col-md-6"l><"col-md-6"p>>><"clear">',
+                    "pagingType": "full_numbers",
+                    "language": {
+                        "emptyTable": '@ViewData["Title"] data not found',
+                        "paginate": {
+                            "first": "«",
+                            "last": "»",
+                            "previous": "‹",
+                            "next": "›"
+                        }
+                    },
+            });
+        });
+    </script>
+}
