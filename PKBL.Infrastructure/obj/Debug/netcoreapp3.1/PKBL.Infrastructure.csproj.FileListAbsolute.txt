@@ -20,16 +20,16 @@ D:\Adit\Project\Private\PKBLAntam_Sln\PKBL.Web\bin\Debug\netcoreapp3.1\PKBL.Infr
 D:\Adit\Project\Private\PKBLAntam_Sln\PKBL.Web\bin\Debug\netcoreapp3.1\PKBL.Infrastructure.runtimeconfig.dev.json
 D:\Adit\Project\Private\PKBLAntam_Sln\PKBL.Web\bin\Debug\netcoreapp3.1\PKBL.Infrastructure.dll
 D:\Adit\Project\Private\PKBLAntam_Sln\PKBL.Web\bin\Debug\netcoreapp3.1\PKBL.Infrastructure.pdb
-E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Infrastructure\obj\Debug\netcoreapp3.1\PKBL.Infrastructure.csprojAssemblyReference.cache
-E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Infrastructure\obj\Debug\netcoreapp3.1\PKBL.Infrastructure.AssemblyInfoInputs.cache
-E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Infrastructure\obj\Debug\netcoreapp3.1\PKBL.Infrastructure.AssemblyInfo.cs
-E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Infrastructure\obj\Debug\netcoreapp3.1\PKBL.Infrastructure.csproj.CoreCompileInputs.cache
-E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Infrastructure\obj\Debug\netcoreapp3.1\PKBL.Infrastructure.dll
-E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Infrastructure\obj\Debug\netcoreapp3.1\PKBL.Infrastructure.pdb
 E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Web\bin\Debug\netcoreapp3.1\PKBL.Infrastructure.deps.json
 E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Web\bin\Debug\netcoreapp3.1\PKBL.Infrastructure.runtimeconfig.json
 E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Web\bin\Debug\netcoreapp3.1\PKBL.Infrastructure.runtimeconfig.dev.json
 E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Web\bin\Debug\netcoreapp3.1\PKBL.Infrastructure.dll
 E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Web\bin\Debug\netcoreapp3.1\PKBL.Infrastructure.pdb
+E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Infrastructure\obj\Debug\netcoreapp3.1\PKBL.Infrastructure.csprojAssemblyReference.cache
+E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Infrastructure\obj\Debug\netcoreapp3.1\PKBL.Infrastructure.AssemblyInfoInputs.cache
+E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Infrastructure\obj\Debug\netcoreapp3.1\PKBL.Infrastructure.AssemblyInfo.cs
+E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Infrastructure\obj\Debug\netcoreapp3.1\PKBL.Infrastructure.csproj.CoreCompileInputs.cache
 E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Infrastructure\obj\Debug\netcoreapp3.1\PKBL.Infrastructure.csproj.CopyComplete
+E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Infrastructure\obj\Debug\netcoreapp3.1\PKBL.Infrastructure.dll
+E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Infrastructure\obj\Debug\netcoreapp3.1\PKBL.Infrastructure.pdb
 E:\Projects\Antam\PKBL\03 - Development\PKBL_Antam\PKBL.Infrastructure\obj\Debug\netcoreapp3.1\PKBL.Infrastructure.genruntimeconfig.cache

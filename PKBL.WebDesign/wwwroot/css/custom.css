@@ -1,0 +1,37 @@
+﻿a {
+    color: #016a63;
+}
+
+a:hover {
+    color: #375623;
+}
+
+.sidenav-header {
+    height: 100px;
+}
+
+.bg-primary {
+    background-color: #016a63 !important;
+}
+
+.text-primary {
+    color: #016a63 !important;
+}
+
+a.text-primary:hover,
+a.text-primary:focus{
+    color: #375623 !important;
+}
+
+.btn-neutral {
+    color: #375623;
+}
+
+.text-gold {
+    color: #f4ac4e;
+}
+
+.page-item.active .page-link {
+    border-color: #016a63;
+    background-color: #016a63;
+}

@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30330.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKBL.Domain", "PKBL.Domain\PKBL.Domain.csproj", "{7B5093F9-B18F-40F1-A99F-F8277265CDD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PKBL.Domain", "PKBL.Domain\PKBL.Domain.csproj", "{7B5093F9-B18F-40F1-A99F-F8277265CDD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKBL.Application", "PKBL.Application\PKBL.Application.csproj", "{374FD5F9-00D5-402D-A1C4-6F70752A6711}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PKBL.Application", "PKBL.Application\PKBL.Application.csproj", "{374FD5F9-00D5-402D-A1C4-6F70752A6711}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKBL.Infrastructure", "PKBL.Infrastructure\PKBL.Infrastructure.csproj", "{457628F7-3651-4A7A-999C-255C54C1BA6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PKBL.Infrastructure", "PKBL.Infrastructure\PKBL.Infrastructure.csproj", "{457628F7-3651-4A7A-999C-255C54C1BA6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKBL.Web", "PKBL.Web\PKBL.Web.csproj", "{8098B6BE-FA8A-4D90-B8F4-A09A98FF8A2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PKBL.Web", "PKBL.Web\PKBL.Web.csproj", "{8098B6BE-FA8A-4D90-B8F4-A09A98FF8A2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKBL.WebDesign", "PKBL.WebDesign\PKBL.WebDesign.csproj", "{0175E53D-EFA9-4D50-9BC5-A9E5F95C59A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{8098B6BE-FA8A-4D90-B8F4-A09A98FF8A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8098B6BE-FA8A-4D90-B8F4-A09A98FF8A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8098B6BE-FA8A-4D90-B8F4-A09A98FF8A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0175E53D-EFA9-4D50-9BC5-A9E5F95C59A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0175E53D-EFA9-4D50-9BC5-A9E5F95C59A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0175E53D-EFA9-4D50-9BC5-A9E5F95C59A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0175E53D-EFA9-4D50-9BC5-A9E5F95C59A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
