@@ -2,97 +2,116 @@
 @{
     ViewData["Title"] = "Edit Master Supplier";
 }
-<h4>@ViewData["Title"]</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
-            <input type="hidden" asp-for="CreatedBy" />
-            <input type="hidden" asp-for="CreatedDate" />
-            <div class="form-group">
-                <label asp-for="SupplierName" class="control-label"></label>
-                <input asp-for="SupplierName" class="form-control" />
-                <span asp-validation-for="SupplierName" class="text-danger"></span>
+<div class='row'>
+    <div class='col-md-12 col-sm-12  '>
+        <div class='x_panel'>
+            <div class='x_title no-padding'>
+                <h2>@ViewData["Title"]</h2>
+                <div class='nav navbar-right panel_toolbox'>
+                    <a asp-action='Index' class='btn btn-sm btn-link'>Back to List</a>
+                </div>
+                <div class='clearfix'></div>
             </div>
-            <div class="form-group">
-                <label asp-for="Alamat" class="control-label"></label>
-                <input asp-for="Alamat" class="form-control" />
-                <span asp-validation-for="Alamat" class="text-danger"></span>
+            <div class='x_content'>
+                <br />
+                <form asp-action='Edit' class='form-label-left'>
+                    <div asp-validation-summary='ModelOnly' class='text-danger'></div>
+                    <input type='hidden' asp-for='Id' />
+                    <input type='hidden' asp-for='CreatedBy' />
+                    <input type='hidden' asp-for='CreatedDate' />
+                    <div class='row'>
+                        <div class='col-md-6'>
+                            <div class='form-group row'>
+                                <label asp-for='SupplierName' class='col-form-label col-md-3 col-sm-3'></label>
+                                <div class='col-md-9 col-sm-9'>
+                                    <input asp-for='SupplierName' class='form-control' />
+                                    <span asp-validation-for='SupplierName' class='text-danger'></span>
+                                </div>
+                            </div>
+                            <div class='form-group row'>
+                                <label asp-for='Alamat' class='col-form-label col-md-3 col-sm-3'></label>
+                                <div class='col-md-9 col-sm-9'>
+                                    <input asp-for='Alamat' class='form-control' />
+                                    <span asp-validation-for='Alamat' class='text-danger'></span>
+                                </div>
+                            </div>
+                            <div class='form-group row'>
+                                <label asp-for='Phone' class='col-form-label col-md-3 col-sm-3'></label>
+                                <div class='col-md-9 col-sm-9'>
+                                    <input asp-for='Phone' class='form-control' />
+                                    <span asp-validation-for='Phone' class='text-danger'></span>
+                                </div>
+                            </div>
+                            <div class='form-group row'>
+                                <label asp-for='Fax' class='col-form-label col-md-3 col-sm-3'></label>
+                                <div class='col-md-9 col-sm-9'>
+                                    <input asp-for='Fax' class='form-control' />
+                                    <span asp-validation-for='Fax' class='text-danger'></span>
+                                </div>
+                            </div>
+                            <div class='form-group row'>
+                                <label asp-for='Keterangan' class='col-form-label col-md-3 col-sm-3'></label>
+                                <div class='col-md-9 col-sm-9'>
+                                    <input asp-for='Keterangan' class='form-control' />
+                                    <span asp-validation-for='Keterangan' class='text-danger'></span>
+                                </div>
+                            </div>
+                            <div class='form-group row'>
+                                <label asp-for='Pic' class='col-form-label col-md-3 col-sm-3'></label>
+                                <div class='col-md-9 col-sm-9'>
+                                    <input asp-for='Pic' class='form-control' />
+                                    <span asp-validation-for='Pic' class='text-danger'></span>
+                                </div>
+                            </div>
+                            <div class='form-group row'>
+                                <label asp-for='Jabatan' class='col-form-label col-md-3 col-sm-3'></label>
+                                <div class='col-md-9 col-sm-9'>
+                                    <input asp-for='Jabatan' class='form-control' />
+                                    <span asp-validation-for='Jabatan' class='text-danger'></span>
+                                </div>
+                            </div>
+                            <div class='form-group row'>
+                                <label asp-for='BranchCode' class='col-form-label col-md-3 col-sm-3'></label>
+                                <div class='col-md-9 col-sm-9'>
+                                    <input asp-for='BranchCode' class='form-control' />
+                                    <span asp-validation-for='BranchCode' class='text-danger'></span>
+                                </div>
+                            </div>
+                            <div class='form-group row'>
+                                <label asp-for='SupplierCode' class='col-form-label col-md-3 col-sm-3'></label>
+                                <div class='col-md-9 col-sm-9'>
+                                    <input asp-for='SupplierCode' class='form-control' />
+                                    <span asp-validation-for='SupplierCode' class='text-danger'></span>
+                                </div>
+                            </div>
+                            <div class='form-group row'>
+                                <label asp-for='TglDaftar' class='col-form-label col-md-3 col-sm-3'></label>
+                                <div class='col-md-9 col-sm-9'>
+                                    <input asp-for='TglDaftar' class='form-control' />
+                                    <span asp-validation-for='TglDaftar' class='text-danger'></span>
+                                </div>
+                            </div>
+                            <div class='form-group row'>
+                                <label asp-for='group_penokode' class='col-form-label col-md-3 col-sm-3'></label>
+                                <div class='col-md-9 col-sm-9'>
+                                    <input asp-for='group_penokode' class='form-control' />
+                                    <span asp-validation-for='group_penokode' class='text-danger'></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='ln_solid'></div>
+                    <div class='row'>
+                        <div class='col-md-6'>
+                            <div class='form-group row'>
+                                <div class='offset-md-3 col-md-9 col-sm-9'>
+                                    <input type='submit' value='Save' class='btn btn-success' />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
-            <div class="form-group">
-                <label asp-for="Phone" class="control-label"></label>
-                <input asp-for="Phone" class="form-control" />
-                <span asp-validation-for="Phone" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Fax" class="control-label"></label>
-                <input asp-for="Fax" class="form-control" />
-                <span asp-validation-for="Fax" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Keterangan" class="control-label"></label>
-                <input asp-for="Keterangan" class="form-control" />
-                <span asp-validation-for="Keterangan" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Pic" class="control-label"></label>
-                <input asp-for="Pic" class="form-control" />
-                <span asp-validation-for="Pic" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Jabatan" class="control-label"></label>
-                <input asp-for="Jabatan" class="form-control" />
-                <span asp-validation-for="Jabatan" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="BranchCode" class="control-label"></label>
-                <input asp-for="BranchCode" class="form-control" />
-                <span asp-validation-for="BranchCode" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="SupplierCode" class="control-label"></label>
-                <input asp-for="SupplierCode" class="form-control" />
-                <span asp-validation-for="SupplierCode" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="TglDaftar" class="control-label"></label>
-                <input asp-for="TglDaftar" class="form-control" />
-                <span asp-validation-for="TglDaftar" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="group_penokode" class="control-label"></label>
-                <input asp-for="group_penokode" class="form-control" />
-                <span asp-validation-for="group_penokode" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="CreatedBy" class="control-label"></label>
-                <input asp-for="CreatedBy" class="form-control" />
-                <span asp-validation-for="CreatedBy" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ModifiedBy" class="control-label"></label>
-                <input asp-for="ModifiedBy" class="form-control" />
-                <span asp-validation-for="ModifiedBy" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="CreatedDate" class="control-label"></label>
-                <input asp-for="CreatedDate" class="form-control" />
-                <span asp-validation-for="CreatedDate" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ModifiedDate" class="control-label"></label>
-                <input asp-for="ModifiedDate" class="form-control" />
-                <span asp-validation-for="ModifiedDate" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
+        </div>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>

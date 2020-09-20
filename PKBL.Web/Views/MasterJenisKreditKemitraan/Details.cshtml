@@ -3,50 +3,83 @@
 @{
     ViewData["Title"] = "Detail Master Jenis Kredit Kemitraan";
 }
-
-<div>
-    <h4>@ViewData["Title"]</h4>
-    <hr />
-    <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.IdJenisProgram)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.IdJenisProgram)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Description)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Description)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.CreatedBy)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.CreatedBy)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.ModifiedBy)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.ModifiedBy)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.CreatedDate)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.CreatedDate)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.ModifiedDate)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.ModifiedDate)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+<div class='row'>
+    <div class='col-md-12 col-sm-12'>
+        <div class='x_panel'>
+            <div class='x_title no-padding'>
+                <h2>@ViewData["Title"]</h2>
+                <div class='nav navbar-right panel_toolbox'>
+                    <a asp-action='Index' class='btn btn-sm btn-link'>Back to List</a>
+                </div>
+                <div class='clearfix'></div>
+            </div>
+            <div class='x_content'>
+                <br />
+                <div class='form-label-left'>
+                    <div class='row'>
+                        <div class='col-md-6'>
+                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.IdJenisProgram)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.IdJenisProgram)
+                                </div>
+                            </div>
+                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.Description)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.Description)
+                                </div>
+                            </div>
+                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.CreatedBy)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.CreatedBy)
+                                </div>
+                            </div>
+                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.ModifiedBy)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.ModifiedBy)
+                                </div>
+                            </div>
+                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.CreatedDate)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.CreatedDate)
+                                </div>
+                            </div>
+                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.ModifiedDate)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.ModifiedDate)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='ln_solid'></div>
+                    <div class='row'>
+                        <div class='col-md-6'>
+                            <div class='form-group row'>
+                                <div class='offset-md-3 col-md-9 col-sm-9'>
+                                    <a asp-action='Edit' asp-route-id='@Model.Id' class='btn btn-secondary'>Edit</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

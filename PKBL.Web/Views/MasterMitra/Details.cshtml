@@ -2,271 +2,381 @@
 @{
     ViewData["Title"] = "Detail Master Mitra";
 }
-<div>
-    <h4>@ViewData["Title"]</h4>
-    <hr />
-    <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.RequestorAddress)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.RequestorAddress)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.AddressDistrict)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.AddressDistrict)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.HomeOwnershipId)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.HomeOwnershipId)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.RequestorPhone1)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.RequestorPhone1)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.RequestorPhone2)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.RequestorPhone2)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.RequestorMail)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.RequestorMail)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.MaritalStatusId)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.MaritalStatusId)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.EducationLevelId)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.EducationLevelId)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.CompanyDataId)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.CompanyDataId)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Family_Relative_ID)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Family_Relative_ID)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Other_Relative_ID)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Other_Relative_ID)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Car_Mortage_ID)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Car_Mortage_ID)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Motorcycle_Mortage_ID)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Motorcycle_Mortage_ID)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Other_Mortage_ID)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Other_Mortage_ID)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.MortageRemarks)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.MortageRemarks)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Administrative_Id)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Administrative_Id)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Production_Activity_Id1)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Production_Activity_Id1)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Production_Activity_Id2)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Production_Activity_Id2)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Production_Activity_Id3)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Production_Activity_Id3)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Production_Activity_Id4)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Production_Activity_Id4)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.IsProductHandMade)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.IsProductHandMade)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.IsMachineMade)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.IsMachineMade)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Owned_Tool1)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Owned_Tool1)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Owned_Tool1_count)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Owned_Tool1_count)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Owned_Tool2)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Owned_Tool2)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Owned_Tool2_count)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Owned_Tool2_count)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Owned_Tool3)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Owned_Tool3)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Owned_Tool3_count)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Owned_Tool3_count)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Owned_Tool4)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Owned_Tool4)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Owned_Tool4_count)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Owned_Tool4_count)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Service_Provided)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Service_Provided)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Marketing)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Marketing)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.IsLocalMarket)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.IsLocalMarket)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.IsExport)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.IsExport)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Checklist_Id)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Checklist_Id)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.UploadedFile)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.UploadedFile)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.InventoryUpdateId)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.InventoryUpdateId)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.MGRNoProposal)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.MGRNoProposal)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.TglBermasalah)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.TglBermasalah)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.CreatedBy)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.CreatedBy)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.ModifiedBy)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.ModifiedBy)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.CreatedDate)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.CreatedDate)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.ModifiedDate)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.ModifiedDate)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+"<div class='row'>
+    <div class='col-md-12 col-sm-12'>
+        <div class='x_panel'>
+            <div class='x_title no-padding'>
+                <h2>@ViewData["Title"]</h2>
+                <div class='nav navbar-right panel_toolbox'>
+                    <a asp-action='Index' class='btn btn-sm btn-link'>Back to List</a>
+                </div>
+                <div class='clearfix'></div>
+            </div>
+            <div class='x_content'>
+                <br />
+                <div class='form-label-left'>
+                    <div class='row'>
+                        <div class='col-md-6'>
+                            "
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.RequestorAddress)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.RequestorAddress)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.AddressDistrict)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.AddressDistrict)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.HomeOwnershipId)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.HomeOwnershipId)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.RequestorPhone1)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.RequestorPhone1)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.RequestorPhone2)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.RequestorPhone2)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.RequestorMail)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.RequestorMail)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.MaritalStatusId)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.MaritalStatusId)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.EducationLevelId)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.EducationLevelId)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.CompanyDataId)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.CompanyDataId)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.Family_Relative_ID)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.Family_Relative_ID)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.Other_Relative_ID)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.Other_Relative_ID)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.Car_Mortage_ID)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.Car_Mortage_ID)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.Motorcycle_Mortage_ID)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.Motorcycle_Mortage_ID)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.Other_Mortage_ID)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.Other_Mortage_ID)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.MortageRemarks)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.MortageRemarks)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.Administrative_Id)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.Administrative_Id)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.Production_Activity_Id1)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.Production_Activity_Id1)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.Production_Activity_Id2)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.Production_Activity_Id2)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.Production_Activity_Id3)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.Production_Activity_Id3)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.Production_Activity_Id4)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.Production_Activity_Id4)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.IsProductHandMade)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.IsProductHandMade)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.IsMachineMade)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.IsMachineMade)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.Owned_Tool1)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.Owned_Tool1)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.Owned_Tool1_count)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.Owned_Tool1_count)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.Owned_Tool2)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.Owned_Tool2)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.Owned_Tool2_count)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.Owned_Tool2_count)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.Owned_Tool3)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.Owned_Tool3)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.Owned_Tool3_count)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.Owned_Tool3_count)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.Owned_Tool4)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.Owned_Tool4)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.Owned_Tool4_count)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.Owned_Tool4_count)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.Service_Provided)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.Service_Provided)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.Marketing)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.Marketing)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.IsLocalMarket)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.IsLocalMarket)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.IsExport)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.IsExport)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.Checklist_Id)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.Checklist_Id)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.UploadedFile)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.UploadedFile)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.InventoryUpdateId)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.InventoryUpdateId)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.MGRNoProposal)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.MGRNoProposal)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.TglBermasalah)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.TglBermasalah)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.CreatedBy)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.CreatedBy)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.ModifiedBy)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.ModifiedBy)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.CreatedDate)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.CreatedDate)
+                                </div>
+                            </div>"
+                            "                            <div class='form-group row'>
+                                <div class='col-form-label col-md-3 col-sm-3'>
+                                    @Html.DisplayNameFor(model => model.ModifiedDate)
+                                </div>
+                                <div class='col-form-label col-md-9 col-sm-9'>
+                                    @Html.DisplayFor(model => model.ModifiedDate)
+                                </div>
+                            </div>"
+                            "
+                        </div>
+                    </div>
+                    <div class='ln_solid'></div>
+                    <div class='row'>
+                        <div class='col-md-6'>
+                            <div class='form-group row'>
+                                <div class='offset-md-3 col-md-9 col-sm-9'>
+                                    <a asp-action='Edit' asp-route-id='@Model.Id' class='btn btn-secondary'>Edit</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>"
